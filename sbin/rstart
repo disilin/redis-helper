@@ -1,0 +1,4 @@
+LOGPATH=~/redis_helper/log
+
+mkdir -p $LOGPATH
+nohup redis_helper >> $LOGPATH/redis_helper.log  2>&1 &

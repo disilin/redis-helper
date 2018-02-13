@@ -1,0 +1,4 @@
+redis_helperIDs=`ps -ef | grep -v grep | grep -v vi| grep redis_helper | awk '{print $2}'`
+for redis_helperID in $redis_helperIDs; do
+        kill -9 $redis_helperID
+        done

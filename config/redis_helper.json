@@ -1,0 +1,15 @@
+{
+    "Redis":{
+        "Address":"127.0.0.1",
+        "Port":"6379",
+        "Password":"",
+        "DBIndex":4
+    },
+	"Rule":{
+		"Pattern":["*"],
+		"ScanCount":1000,
+		"GoroutineCount":100,
+		"Method":"expire",
+		"ExpireTime":259200
+	}
+}
