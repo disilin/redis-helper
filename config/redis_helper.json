@@ -8,7 +8,6 @@
 	"Rule":{
 		"Pattern":["*"],
 		"ScanCount":1000,
-		"GoroutineCount":100,
 		"Method":"expire",
 		"ExpireTime":259200
 	}

@@ -23,11 +23,10 @@ type Redis struct {
 }
 
 type RuleConf struct {
-	Pattern        []string
-	ScanCount      int
-	GoroutineCount int
-	Method         string
-	ExpireTime     int64
+	Pattern    []string
+	ScanCount  int
+	Method     string
+	ExpireTime int64
 }
 
 /**
