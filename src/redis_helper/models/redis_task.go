@@ -4,7 +4,6 @@ import (
 	"common"
 	"common/sdkredis"
 	"log"
-	"time"
 
 	"github.com/garyburd/redigo/redis"
 )
